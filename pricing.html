@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing &amp; FAQ — Orchard Bytes</title>
+  <meta name="description" content="Clear, upfront pricing for tech repair and tutoring. $75 diagnostic credited toward your repair. 30-day workmanship guarantee.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 238 234" aria-hidden="true"><rect x="74" y="10" width="26" height="26" rx="6" fill="#8BBF6F"/><rect x="106" y="10" width="26" height="26" rx="6" fill="#8BBF6F"/><rect x="138" y="10" width="26" height="26" rx="6" fill="#8BBF6F"/><rect x="42" y="42" width="26" height="26" rx="6" fill="#4A7FB5"/><rect x="74" y="42" width="26" height="26" rx="6" fill="#8BBF6F"/><rect x="106" y="42" width="26" height="26" rx="6" fill="#5FA352"/><rect x="138" y="42" width="26" height="26" rx="6" fill="#8BBF6F"/><rect x="170" y="42" width="26" height="26" rx="6" fill="#5FA352"/><rect x="10" y="74" width="26" height="26" rx="6" fill="#5FA352"/><rect x="42" y="74" width="26" height="26" rx="6" fill="#5FA352"/><rect x="74" y="74" width="26" height="26" rx="6" fill="#5FA352"/><rect x="106" y="74" width="26" height="26" rx="6" fill="#3E7A3F"/><rect x="138" y="74" width="26" height="26" rx="6" fill="#5FA352"/><rect x="170" y="74" width="26" height="26" rx="6" fill="#4A7FB5"/><rect x="202" y="74" width="26" height="26" rx="6" fill="#5FA352"/><rect x="10" y="106" width="26" height="26" rx="6" fill="#3E7A3F"/><rect x="42" y="106" width="26" height="26" rx="6" fill="#3E7A3F"/><rect x="74" y="106" width="26" height="26" rx="6" fill="#4A7FB5"/><rect x="106" y="106" width="26" height="26" rx="6" fill="#3E7A3F"/><rect x="138" y="106" width="26" height="26" rx="6" fill="#3E7A3F"/><rect x="170" y="106" width="26" height="26" rx="6" fill="#3E7A3F"/><rect x="202" y="106" width="26" height="26" rx="6" fill="#3E7A3F"/><rect x="42" y="138" width="26" height="26" rx="6" fill="#2F5F30"/><rect x="74" y="138" width="26" height="26" rx="6" fill="#2F5F30"/><rect x="106" y="138" width="26" height="26" rx="6" fill="#2F5F30"/><rect x="138" y="138" width="26" height="26" rx="6" fill="#2F5F30"/><rect x="170" y="138" width="26" height="26" rx="6" fill="#2F5F30"/><rect x="102" y="156" width="34" height="68" rx="6" fill="#5B4636"/></svg>
+        <span class="nav-wordmark"><span class="nav-wordmark-orchard">Orchard</span><span class="nav-wordmark-bytes">Bytes</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.getElementById('nav-links').classList.toggle('open')"><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="services.html">Services</a>
+        <a href="pricing.html" class="active">Pricing &amp; FAQ</a>
+        <a href="about.html">About</a>
+        <a href="request.html" class="nav-cta">Request help</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section style="max-width: 1120px; margin: 0 auto; padding: 72px 32px 24px; display: flex; flex-direction: column; gap: 16px;">
+    <div class="section-label">Pricing</div>
+    <h1 style="font-weight: 700; font-size: 52px; line-height: 1.08; max-width: 760px;">Clear prices, no surprises</h1>
+    <p style="font-size: 20px; color: var(--body); max-width: 680px;">You'll know what a repair costs before any work begins. Your diagnostic fee is credited toward the repair if you go ahead.</p>
+  </section>
+
+  <!-- PRICING CARDS -->
+  <section style="max-width: 1120px; margin: 0 auto; padding: 24px 32px 64px; display: flex; flex-wrap: wrap; gap: 24px;">
+
+    <div style="flex: 1 1 300px; min-width: 0; background: var(--white); border: 2px solid var(--green); border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px;">
+      <div class="section-label">Step one</div>
+      <h2 style="font-weight: 700; font-size: 26px;">Diagnostic</h2>
+      <div style="font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 44px; line-height: 1;">$75</div>
+      <p style="color: var(--body);">Find out exactly what's wrong and what it will take to fix. Credited toward your repair if you proceed.</p>
+    </div>
+
+    <div class="card" style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 12px;">
+      <div class="section-label" style="color: var(--blue);">Repairs</div>
+      <h2 style="font-weight: 700; font-size: 26px;">Device repair</h2>
+      <div style="font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 44px; line-height: 1;">Quoted</div>
+      <p style="color: var(--body);">Quoted after the diagnostic, with parts and labor itemized. 30-day workmanship guarantee.</p>
+    </div>
+
+    <div class="card" style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 12px;">
+      <div class="section-label" style="color: var(--blue);">Teaching</div>
+      <h2 style="font-weight: 700; font-size: 26px;">Tech tutoring</h2>
+      <div style="font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 44px; line-height: 1;">$75<span style="font-size: 24px; font-weight: 600;">/hr</span></div>
+      <p style="color: var(--body);">One-on-one help at your pace, in your home or by video call.</p>
+    </div>
+
+  </section>
+
+  <!-- REFERRAL BANNER -->
+  <section style="max-width: 1120px; margin: 0 auto; padding: 0 32px 72px;">
+    <div style="background: var(--green-tint); border-radius: 20px; padding: 24px 32px; font-weight: 600; color: var(--dark-green);">
+      Referred by a past customer? Ask about the referral discount.
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <div style="background: var(--white); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <section style="max-width: 820px; margin: 0 auto; padding: 80px 32px;">
+      <h2 style="font-weight: 700; font-size: 40px; line-height: 1.1; margin-bottom: 32px;">Frequently asked questions</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+
+        <details open class="faq-item">
+          <summary class="faq-summary">
+            <span>How does the diagnostic fee work?</span>
+            <span class="faq-plus">+</span>
+          </summary>
+          <p class="faq-answer">The diagnostic covers my time to find out what's wrong. If you go ahead with the repair, the fee is credited toward the total. If you decide not to, the fee still applies since it covers the time and travel.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            <span>Do you come to me, or do I send it in?</span>
+            <span class="faq-plus">+</span>
+          </summary>
+          <p class="faq-answer">Either. I make house calls across South-Central PA. If you're outside the area, or just prefer it, you can mail your device in, and I'll repair it and ship it back.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            <span>How does a mail-in repair work?</span>
+            <span class="faq-plus">+</span>
+          </summary>
+          <p class="faq-answer">Send me a request first and I'll walk you through packing and shipping. I'll diagnose it and send you a quote. Once the repair is done and the balance is paid, I ship it back to you.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            <span>What if it can't be fixed?</span>
+            <span class="faq-plus">+</span>
+          </summary>
+          <p class="faq-answer">You'll hear that from me during the diagnostic, before any repair begins, along with your options. No repair work is done without your OK.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            <span>Is the repair guaranteed?</span>
+            <span class="faq-plus">+</span>
+          </summary>
+          <p class="faq-answer">Yes. Every repair comes with a 30-day workmanship guarantee.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            <span>How do I pay?</span>
+            <span class="faq-plus">+</span>
+          </summary>
+          <p class="faq-answer">I accept Zelle, cash and check. I send a simple invoice, and the diagnostic fee is collected before we schedule a call or visit.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            <span>What areas do you serve?</span>
+            <span class="faq-plus">+</span>
+          </summary>
+          <p class="faq-answer">House calls across South-Central PA. If you're outside the area, mail-in repairs are available from anywhere.</p>
+        </details>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- CTA BAND -->
+  <div class="cta-band">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 56px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px;">
+      <div style="flex: 1 1 400px;">
+        <h2 style="font-weight: 700; font-size: 32px; line-height: 1.15; margin-bottom: 8px;">Still have a question?</h2>
+        <p style="font-size: 18px;">Send a request or call or text (717) 502-2840.</p>
+      </div>
+      <a href="request.html" class="btn-white">Request help</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 40px 32px; display: flex; flex-wrap: wrap; gap: 24px 40px; justify-content: space-between; align-items: center;">
+      <span class="footer-wordmark"><span class="footer-wordmark-orchard">Orchard</span><span class="footer-wordmark-bytes">Bytes</span></span>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing &amp; FAQ</a>
+        <a href="about.html">About</a>
+        <a href="request.html">Request help</a>
+      </div>
+      <a href="tel:7175022840" style="font-weight: 700; font-size: 15px;">(717) 502-2840</a>
+    </div>
+    <div style="max-width: 1120px; margin: 0 auto; padding: 0 32px 28px;" class="footer-copy">&copy; Orchard Bytes LLC. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
